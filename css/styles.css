@@ -1,0 +1,17 @@
+/** Stylings **/
+
+:root {
+--Family: url ('https://fonts.google.com/specimen/Manrope');  /** Font **/
+--Weight--: 800;
+--Font-size--: 28px;
+--Light-Cyan--: hsl(193, 38%, 86%);                     /**Colors Primary & Neutral **/
+--Neon-Green--: hsl(150, 100%, 66%);
+--Grayish-Blue--: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue--:hsl(217, 19%, 24%);
+--Dark-Blue--: hsl(218, 23%, 16%);
+}
+
+/***
+ --Mobile--: 375px;
+ --Desktop--: 1440px;
+ ***/
