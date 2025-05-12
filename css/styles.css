@@ -1,14 +1,65 @@
 /** Stylings **/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
 :root {
---Family: url ('https://fonts.google.com/specimen/Manrope');  /** Font **/
+--Family: 'Manrope', sans-serif;               /**Font Family**/
 --Weight--: 800;
---Font-size--: 28px;
+--Font-size--: 18px;
 --Light-Cyan--: hsl(193, 38%, 86%);                     /**Colors Primary & Neutral **/
 --Neon-Green--: hsl(150, 100%, 66%);
 --Grayish-Blue--: hsl(217, 19%, 38%);
 --Dark-Grayish-Blue--:hsl(217, 19%, 24%);
 --Dark-Blue--: hsl(218, 23%, 16%);
+}
+
+body {
+background-color:var(--Dark-Blue--);
+font-family: var(--Family);
+}
+
+.container {
+ display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+  margin: 10px;
+  background-color: var(--Dark-Grayish-Blue--);
+  border-radius: 2em;
+  width: 751px;
+}
+
+.card {
+  padding: 1em;
+  margin: 0.5em;
+}
+
+.advice-number{
+  color: var(--Neon-Green--);
+  padding: 5px;
+  margin:5px
+}
+
+.advice-text {
+  padding: 15px;
+  margin: 10px;
+  color: var(--Light-Cyan--);
+}
+
+.divider {
+  padding: 1em;
+  margin: 0.5em;
+}
+
+button {
+  padding: 0.5em;
+  margin: 3px;
+  border-radius: 0.5em;
+  background-color: var(--Neon-Green--);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 /***
